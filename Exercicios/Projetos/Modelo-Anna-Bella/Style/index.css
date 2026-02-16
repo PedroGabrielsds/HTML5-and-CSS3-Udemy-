@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../images/fundo.png);
+    background-attachment: fixed;
+    width: 900px;
+}
+
+/* 
+
+Inicio Header
+
+*/
+nav {
+    background-color: rgb(197, 197, 171);
+    padding: 18px;
+
+}
+
+#menu > a {
+    text-decoration: none;
+    color: rgb(10, 29, 17);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+
+}
+
+/*
+
+Fim Header
+
+Inicio Main
+
+*/
+
+
+main {
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+main > h3 {
+    color: rgb(187, 176, 114);
+
+}
+
+.background_imgs {
+    background-color: rgb(197, 197, 171);
+    width: 640px;
+    padding: 10px;
+}
+
+.especial {
+    font-weight: bolder;
+
+}
+
+footer {
+    background-color: rgb(197, 197, 171);
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+footer > p {
+    padding: 15px 0px;
+
+} 
