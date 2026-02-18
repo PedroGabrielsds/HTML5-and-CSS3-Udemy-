@@ -1,0 +1,149 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+:root {
+    --cor1: #F5C827;
+    --cor2: rgb(97, 97, 97);
+
+
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: var(--cor2);
+
+}
+
+/*
+
+Inicio Header
+
+*/
+
+header, nav {
+    background-color: #F5C827;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--cor1);
+    text-align: center;
+
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:link, a:visited {
+    color: white;
+    font-weight: bold;
+
+}
+
+nav > a:hover {
+    background-color: white;
+    color: var(--cor1);
+}
+
+nav > a:active {
+    background-color: var(--cor2);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.branco {
+    color: white;
+
+}
+
+/*
+    Fim Header
+
+    Inicio Main
+*/
+
+main {
+    width: 920px;
+    margin: 10px auto;
+    text-align: justify;
+
+}
+
+#posts {
+    float: left;
+
+}
+
+.publicacao {
+    width: 640px;
+    margin: 10px 0px;
+}
+
+.publicacao > a {
+    color: var(--cor1);
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.publicacao a:hover {
+    text-decoration: underline;
+
+}
+
+.publicacao > h2 {
+    color: var(--cor1);
+
+}
+
+.publicacao img {
+    padding: 10px 0px 0px 0px;
+
+}
+
+.menu-lateral {
+    width: 260px;
+    float: right;
+    
+}
+
+.extras {
+    padding: 20px 0px;
+
+}
+
+.extras > h3 {
+    background-color: rgb(187, 185, 185);
+
+}
+
+.extras > p {
+    padding: 10px 0px;
+
+}
+
+.extras a {
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+.extras a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    width: 920px;
+    text-align: center;
+    color: black;
+    margin: 0px auto;
+    clear: both;
+}
