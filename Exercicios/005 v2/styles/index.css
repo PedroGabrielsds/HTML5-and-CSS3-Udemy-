@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+
+
+}
+
+li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background:  url("../images/fundo-horizontal.png");
+    line-height: 40px;
+}
+
+ul a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    background: url("../images/divisor.png") repeat-y right top;
+    
+}
+
+ul a:hover, #home .home a, #sobre .sobre a {
+    background-color: aquamarine;
+    color: black;
+
+}
+
+.ultimo a {
+    background: none;
+
+}
