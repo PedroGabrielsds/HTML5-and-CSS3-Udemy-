@@ -24,3 +24,31 @@ body {
     Inicio Header
 
 */
+
+header {
+    width: 100%;
+    height: 230px;
+    background: var(--cor1) url("../images/fundo.png") repeat-x;
+
+}
+
+nav {
+    margin: -150px 0 0 150px;
+    
+
+}
+
+
+li {
+    float: left;
+    padding: 10px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--corBackNav) url("../images/divisor.png") repeat-y;
+
+}
+
+ul a {
+    
+
+}
