@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="images/perfil.png" type="image/x-icon">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+
+        }
+
+        main {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            background: black url("images/fundo.jpg");
+
+        }
+
+        section {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.301);
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            border-radius: 8px;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            text-align: center;
+        }
+
+        section img {
+            width: 120px;
+            height: 120px;
+
+            margin-top: -60px;
+        }
+
+        form {
+            margin-top: 25px;
+
+        }
+
+        input {
+            display: block;
+            margin: auto;
+            width: 80%;
+            height: 40px;
+            margin-top: 10px;
+            padding-left: 40px;
+            border: none;
+
+        }
+
+        #email {
+            background: white url("images/icone-usuario.png") no-repeat 10px;
+        
+        }
+
+        #senha {
+            background: white url("images/icone-cadeado.png") no-repeat 10px;
+
+        }
+
+        #botao {
+            width: 90%;
+            height: 45px;
+            background-color: #f79300;
+            border: 2px solid #db7d00;
+            color: whitesmoke;
+            padding: 5px 20px;
+            font-weight: bold;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <img src="images/perfil.png" alt="perfil">
+            
+            <form>
+                <input id="email" type="text" placeholder="Digite seu E-mail">
+                <input id="senha" type="password" placeholder="Digite sua Senha">
+                <input id="botao" type="button" value="Logar">
+
+
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+</html>
