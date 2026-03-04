@@ -26,29 +26,147 @@ body {
 */
 
 header {
+    position: relative;
     width: 100%;
     height: 230px;
     background: var(--cor1) url("../images/fundo.png") repeat-x;
 
 }
 
+#cabecalho {
+    position: absolute;
+    border: 1px solid black;
+    max-width: 800px;
+    height: 150px;
+    margin: auto;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+#img1 {
+    position: absolute;
+    margin: 25px 0px;
+
+    left: 20%;
+
+}
+
+#img2 {
+    position: absolute;
+
+    left: 72%;
+
+}
+
 nav {
-    margin: -120px 0 0 150px;
+    position: absolute;
     
+    margin-top: -110px;
+    margin-left: 190px;
 
 }
 
-
-li {
+nav li {
     float: left;
-    padding: 10px;
-    height: 20px;
-    line-height: 20px;
-    background: var(--corBackNav) url("../images/divisor.png") repeat-y;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--corBackNav);
 
 }
 
-ul a {
+nav ul a {
+    display: block;
+    text-align: center;
+    padding: 0px 10px;
+    background: url("../images/divisor.png") repeat-y left top;
+
+}
+
+nav li.primeiro a {
+    background: none;
+
+}
+
+nav ul a, nav ul a:link, nav ul a:visited, nav ul a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+nav .home, .brasil, .inter, .economia, ul a:active {
+    font-weight: bolder;
+    background-color: red;
+
+}
+
+/* 
+
+    Fim Header
+
+    Inicio Main
+
+*/
+
+main {
+    width: 100%;
+
+}
+
+article {
+    max-width: 800px;
+    border: 2px solid red;
+    margin: 10px auto;
+
+}
+
+#menuLateral {
+    width: 250px;
+    border: 2px solid black;
     
+
+}
+
+#entrevistas {
+    width: 100%;
+    background: url("../images/fundo-caixa.png");
+    margin: 0px auto;
+    padding: 10px 0px;
+
+}
+
+.titulos {
+    width: 90%;
+    margin: auto;
+    background-color: var(--cor1);
+    color: whitesmoke;
+    text-indent: 8px;
+
+}
+
+#entrevistas ul {
+    width: 90%;
+    margin: 10px auto;
+    list-style-type: none;
+    list-style-position: inside;
+    background-color: white;
+
+}
+
+#entrevistas li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+
+}
+
+#news {
+    width: 100%;
+    background: url("../images/fundo-caixa.png");
+    padding: 10px 0px;
 
 }
