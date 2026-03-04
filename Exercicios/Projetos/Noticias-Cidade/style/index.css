@@ -33,7 +33,7 @@ header {
 }
 
 nav {
-    margin: -150px 0 0 150px;
+    margin: -120px 0 0 150px;
     
 
 }
@@ -42,8 +42,8 @@ nav {
 li {
     float: left;
     padding: 10px;
-    height: 40px;
-    line-height: 40px;
+    height: 20px;
+    line-height: 20px;
     background: var(--corBackNav) url("../images/divisor.png") repeat-y;
 
 }
