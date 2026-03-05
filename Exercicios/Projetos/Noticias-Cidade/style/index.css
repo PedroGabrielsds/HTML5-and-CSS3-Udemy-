@@ -33,15 +33,15 @@ header {
 }
 
 #geral {
-    max-width: 1000px;
+    max-width: 900px;
     height: 230px;
     margin: auto;
     
 }
 
 #pt1 {
-    min-width: 75%;
-    max-width: 1000px;
+    min-width: 600px;
+    max-width: 950px;
     min-height: 230px;
     float: left;
     margin-left: 15px;
@@ -51,11 +51,12 @@ header {
 #pt1 ul {
     list-style-type: none;
     margin-top: 15px;
+        
 }
 
 #pt1 ul a {
-    min-width: 90px;
-    max-width: 142px;
+    /* min-width: 90px;
+    max-width: 142px; */
 
 }
 
@@ -110,15 +111,20 @@ main {
 }
 
 article {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 10px auto;
 
 }
 
+/* 
+
+    Inicio Menu Lateral
+
+*/
+
 #menuLateral {
-    width: 250px;
-    border: 2px solid black;
-    
+    width: 230px;
+    float: left;
 
 }
 
@@ -157,7 +163,125 @@ article {
 
 #news {
     width: 100%;
-    background: url("../images/fundo-caixa.png");
     padding: 10px 0px;
+    background: url("../images/fundo-caixa.png");
+    
+}
+
+#formulario {
+    width: 87%;
+    margin: 10px auto;
+    background-color: white;
+    padding: 5px;
+
+}
+
+#formulario p {
+    font-weight: bold;
+
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border: 2px solid aqua;
+
+}
+
+input[type="submit"] { 
+    background-color: var(--corBackNav);
+    padding: 10px;
+    color: white;
+    border: var(--corBackNav);
+
+}
+
+/* 
+
+    Fim Menu Lateral
+
+*/
+
+#noticias {
+    width: 665px;
+    height: 800px;
+    float: right;
+
+}
+
+#lados {
+    border: 1px solid greenyellow;
+    width: 100%;
+    height: 800px;
+
+}
+
+#esquerda {
+    width: 49%;
+    float: left;
+
+}
+
+#direita {
+    width: 49%;
+    float: right;
+    
+}
+
+.noticiaMaior {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background: url("../images/fundo-caixa.png");
+
+}
+
+.conteudo {
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.conteudo img {
+    width: 90%;
+
+}
+
+.noticiaMenor {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    background: url("../images/fundo-caixa.png");
+
+}
+
+.clear {
+    clear: both;
+
+}
+
+.menores {
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+    
+}
+
+.imgMenor img {
+    width: 30%;
+    float: left;
+}
+
+.textoMenor {
+    
+    text-align: justify;
 
 }
