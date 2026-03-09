@@ -36,7 +36,7 @@ main {
 #filhoEsquerda {
     position: relative;
     width: 330px;
-    height: 100px;
+    height: 100%;
     border: 1px solid rgb(233, 149, 149);
     float: left;
     background: url("../Noticias-Cidade/images/fundo-caixa.png");
@@ -52,29 +52,40 @@ main {
 }
 
 #filhoDireita {
+    position: relative;
     width: 330px;
-    height: 100px;
+    height: 100%;
     border: 1px solid green;
     float: right;
     background: url("../Noticias-Cidade/images/fundo-caixa.png");
 
 }
 
-.img {
-    position: absolute;
-    width: 300px;
-    height: 80px;
-    border: 1px solid yellow;
-    background-color: white;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
+.titulos-grandes {
+    width: 95%;
+    outline: 1px solid #28496f;
+    margin: 5px auto;
+    color: white;
+    background-color: #28496f;
 
 }
 
-.img img {
+.mini-noticias {
+    width: 95%;
+    height: 80%;
+    outline: 1px solid yellow;
+    background-color: white;
+    margin: 10px auto;
+    
+
+}
+
+.noticinha {
+    border-bottom: 1px solid black;
+
+}
+
+.noticinha img {
     width: 95px;
     height: 70px;
 
@@ -88,6 +99,6 @@ main {
 }
 
 .titulosPequenos {
-    text-align: center;
+    text-align: left;
 
 }
