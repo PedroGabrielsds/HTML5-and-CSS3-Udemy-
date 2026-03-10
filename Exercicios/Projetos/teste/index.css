@@ -2,25 +2,34 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    
+
+}
+
+:root {
+    --cor1: #28496d;
+    --corFont: #fff;
+    --corBackNav: #b1002c;
 
 }
 
 body {
     width: 100%;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 main {
     width: 100%;
+    height: 100%;
 
 }
 
 #geral {
     width: 950px;
-    height: 700px;
+    height: 100%;
     margin: 20px auto;
-    border: 1px solid black;
 
 }
 
@@ -33,72 +42,129 @@ main {
 
 }
 
-#filhoEsquerda {
-    position: relative;
-    width: 330px;
-    height: 100%;
-    border: 1px solid rgb(233, 149, 149);
-    float: left;
-    background: url("../Noticias-Cidade/images/fundo-caixa.png");
-    
-}
-
 #direita {
     width: 680px;
     height: 100%;
-    border: 1px solid greenyellow;
     float: right;
 
 }
 
-#filhoDireita {
+.filhos-direita {
     position: relative;
     width: 330px;
-    height: 100%;
-    border: 1px solid green;
-    float: right;
     background: url("../Noticias-Cidade/images/fundo-caixa.png");
+
+}
+
+#sub-esquerda {
+    float: left;
+
+}
+
+#sub-direita {
+    float: right;
+
+}
+
+/* 
+
+    Parte superior 
+
+*/
+
+.noticia-principal > strong {
+    background-color: var(--corBackNav);
+    padding: 5px;
+
+}
+
+.noticia-principal > a:link, a:hover, a:visited {
+    color: #b1002c;
+
+} 
+
+.noticia-principal > p {
+    margin: 5px 0px;
+
+}
+
+#subtitulo-diferente {
+    color: whitesmoke;
+
+}
+
+.img-noticia-principal {
+    margin: 10px auto;
+    height: 200px;
+    background: gray url("../Noticias-Cidade/images/doutor.jpg") no-repeat center center;
+    background-size: cover;
+
+}
+
+#img-noticia-principal-direita {
+    background: gray url("../Noticias-Cidade/images/taxi.jpg") no-repeat center center;
+    background-size: cover;
 
 }
 
 .titulos-grandes {
     width: 95%;
-    outline: 1px solid #28496f;
     margin: 5px auto;
+    padding: 5px;
     color: white;
     background-color: #28496f;
 
 }
 
-.mini-noticias {
-    width: 95%;
-    height: 80%;
-    outline: 1px solid yellow;
+.divisao {
+    width: 100%;
+    height: 20px;
+    margin: 10px 0px;
     background-color: white;
+
+}
+
+/* Parte Inferior  */
+
+.noticias, .noticia-principal {
+    width: 95%;
     margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.mini-noticias {
+    position: relative;
+    width: 95%;
+    height: 75px;
+    margin: 10px auto;
+
+}
+
+.img-noticia {
+    float: left;
+    width: 33%;
+    height: 100%;
     
+}
+
+.img-noticia img {
+    width: 100%;
+    height: 100%;
 
 }
 
-.noticinha {
-    border-bottom: 1px solid black;
-
-}
-
-.noticinha img {
-    width: 95px;
-    height: 70px;
-
-}
-
-.txt {
-    width: 200px;
+.txt-noticia {
     float: right;
-    padding: 5px;
-
+    text-align: left;
+    font-size: 0.9em;
+    width: 66%;
+    height: 100%;
+    
 }
 
-.titulosPequenos {
-    text-align: left;
+.txt-noticia > h3 {
+    color: #7faad0;
 
 }
