@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    
 
 }
 
@@ -19,6 +18,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+/* 
+
+    Inicio Main
+
+*/
+
 
 main {
     width: 100%;
@@ -39,7 +45,6 @@ main {
     border: 1px solid red;
     float: left;
     
-
 }
 
 #direita {
