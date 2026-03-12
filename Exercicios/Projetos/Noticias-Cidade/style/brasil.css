@@ -19,7 +19,9 @@ body {
     width: 100%;
     height: 100vh;
 
-}/* 
+}
+
+/* 
 
     Inicio Header
 
@@ -128,6 +130,7 @@ article {
     width: 900px;
     height: 100%;
     margin: 10px auto;
+    outline: 1px solid black;
 
 }
 
@@ -185,7 +188,6 @@ article {
 
 }
 
-
 #entrevistas li {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -242,25 +244,35 @@ input[type="submit"] {
 */
 
 #direita {
-    position: relative;
-    width: 660px;
+    width: 650px;
+    height: 100%;
     float: right;
-
-}
-
-.lados {
-    width: 325px;
+    outline: 1px solid greenyellow;
     background: url("../images/fundo-caixa.png");
 
 }
 
-#sub-esquerda {
-    float: left;
-    
+#parte_cima {
+    width: 95%;
+    margin: auto;
+
 }
 
-#sub-direita {
-    float: right;
+.img-noticias-principais {
+    width: 98%;
+    height: 450px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: gray url("../images/doutor.jpg") no-repeat center center;
+    background-size: cover;
+
+}
+
+.noticias-principais,  #parte_baixa {
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
 
 }
 
@@ -281,59 +293,12 @@ input[type="submit"] {
 
 }
 
-#subtitulo-direita {
-    color: whitesmoke;
-
-}
-
-/* 
-
-    Inicio Parte Superior
-
-*/
-
-.noticias-principais, .noticias-inferiores {
-    width: 95%;
-    margin: 10px auto;
-    padding: 10px;
-    background-color: white;
-
-}
-
-.noticias-principais::after {
-    clear: both;
-
-}
-
-.img-noticias-principais {
-    width: 98%;
-    height: 200px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background: gray url("../images/doutor.jpg") no-repeat center center;
-    background-size: cover;
-
-}
-
-#img-noticia-direita {
-    background-image: url("../images/taxi.jpg");
-
-}
-
 .divisoria {
     width: 100%;
     height: 20px;
     background-color: white;
 
 }
-
-/* 
-
-    Fim Parte Superior
-
-    Inicio Parte Inferior
-
-*/
 
 .mini-noticias {
     width: 95%;
