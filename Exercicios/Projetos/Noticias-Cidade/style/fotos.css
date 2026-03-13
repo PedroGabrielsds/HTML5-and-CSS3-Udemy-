@@ -131,131 +131,12 @@ article {
 
 }
 
-article::after {
-    content: "";
-    display: block;
-    clear: both;
-    
-}
-
-#menuLateral {
-    width: 200px;
-    float: left;
-
-}
-
 #direita {
-    width: 680px;
-    float: right;
-    background: url("../images/fundo-caixa.png");
-
-}
-
-/* 
-
-    Inicio Menu Lateral
-
-*/
-
-#entrevistas {
-    width: 100%;
-    background: url("../images/fundo-caixa.png");
-    margin: 0px auto;
-    padding: 10px 0px;
-
-}
-
-.titulos-superiores {
-    width: 95%;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    background-color: var(--cor1);
-    color: white;
-    padding: 2px 5px;
-
-}
-
-#entrevistas ul {
-    width: 90%;
-    margin: 10px auto;
-    list-style-type: none;
-    list-style-position: inside;
-    background-color: white;
-
-}
-
-#entrevistas li a, #entrevistas li a:visited {
-    text-decoration: none;
-    color: black;
-
-}
-
-#entrevistas li a:hover::before {
-    content: url("../images/marcador.png");
-
-}
-
-#entrevistas li a:hover {
-    color: rgba(87, 87, 87, 0.699);
-
-}
-
-#entrevistas li {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-
-}
-
-#news {
-    width: 100%;
-    padding: 10px 0px;
+    width: 900px;
+    padding-bottom: 10px;
     background: url("../images/fundo-caixa.png");
     
 }
-
-#formulario {
-    width: 90%;
-    margin: 10px auto;
-    background-color: white;
-    padding: 5px;
-
-}
-
-#formulario p {
-    font-weight: bold;
-
-}
-
-input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 5px;
-
-}
-
-input[type="email"]:focus {
-    outline: none;
-    border: 2px solid aqua;
-
-}
-
-input[type="submit"] { 
-    background-color: var(--corBackNav);
-    padding: 10px;
-    color: white;
-    border: var(--corBackNav);
-
-}
-
-/* 
-
-    Fim Menu Lateral
-
-    Inicio Direita
-
-*/
 
 .noticias-principais, .noticias-inferiores {
     width: 95%;
@@ -270,11 +151,6 @@ input[type="submit"] {
 
 }
 
-.noticias-principais::after {
-    clear: both;
-
-}
-
 .img-noticias-principais {
     width: 98%;
     height: 450px;
@@ -282,6 +158,17 @@ input[type="submit"] {
     margin-bottom: 5px;
     background: gray url("../images/doutor.jpg") no-repeat center center;
     background-size: cover;
+
+}
+
+.titulos-superiores {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: var(--cor1);
+    color: white;
+    padding: 2px 5px;
 
 }
 

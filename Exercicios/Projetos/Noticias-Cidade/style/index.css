@@ -17,9 +17,11 @@
 
 body {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 
-}/* 
+}
+
+/* 
 
     Inicio Header
 
@@ -120,14 +122,20 @@ header {
 
 main {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
 }
 
 article {
     width: 900px;
-    height: 100%;
     margin: 10px auto;
+
+}
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
 
 }
 
@@ -300,11 +308,6 @@ input[type="submit"] {
 
 }
 
-.noticias-principais::after {
-    clear: both;
-
-}
-
 .img-noticias-principais {
     width: 98%;
     height: 200px;
@@ -383,6 +386,7 @@ footer {
     width: 100%;
     padding: 20px;
     background-color: var(--cor1);
+    clear: both;
 
 }
 
